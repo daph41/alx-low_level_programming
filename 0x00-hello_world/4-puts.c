@@ -1,7 +1,4 @@
 #include <stdio.h>
-//this is the main function below
-
-
 
 int main(void)
 
