@@ -4,13 +4,13 @@
 
 int main(void)
 {	
-	char word[7] = "-putchar";
+	char word[9] = "-putchar";
 	int i;
 
-	for (i=0; i=<7; i++)
-		_putchar(word[i]);
+	for (i=0; i=<9; i++)
+		putchar(word[i]);
 
-	_putchar('\n');
+	putchar('\n');
 
 
 	return(0);
