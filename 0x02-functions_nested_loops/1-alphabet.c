@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /*
  *
  *  * File: 1-alphabet.c
@@ -6,17 +8,21 @@
  *
  *    */
 
-#include<stdio.h>
+int main
 
-void print_alphabet(void)
-{	
+
+{
 	char letter;
 
-	for (letter= 'a'; letter <= 'z'; letter++)
-		putchar(letter);
-
-	putchar ('\n');
-
+	void print_alphabet(void)
+	{	
+		for (letter='a'; letter <='z'; letter++)
+			putchar(letter);
+		putchar ('\n');
+	
+	}
+	
+	print_alphabet();
 	return (0);
 
 }
