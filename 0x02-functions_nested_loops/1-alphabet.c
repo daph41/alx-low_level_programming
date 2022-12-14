@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /*
  *
@@ -8,21 +9,12 @@
  *
  *    */
 
-int main
-
-
-{
-	char letter;
-
-	void print_alphabet(void)
-	{	
+void print_alphabet(void)
+{		char letter;
+	
 		for (letter='a'; letter <='z'; letter++)
 			putchar(letter);
 		putchar ('\n');
 	
-	}
-	
-	print_alphabet();
-	return (0);
-
 }
+
