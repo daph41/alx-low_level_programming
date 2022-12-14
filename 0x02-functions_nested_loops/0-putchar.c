@@ -4,10 +4,10 @@
 
 int main(void)
 {	
-	char word[9] = "-putchar";
+	char word[8] = "-putchar";
 	int i;
 
-	for (i=0; i<9; i++)
+	for (i=0; i<8; i++)
 		putchar(word[i]);
 
 	putchar('\n');
