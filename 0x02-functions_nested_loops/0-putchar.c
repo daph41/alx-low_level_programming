@@ -1,16 +1,18 @@
-#include<stdio.h>
 #include "main.h"
 
 
 int main(void)
 {	
-	char word[8] = "-putchar";
-	int i;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('H');
+	_putchar('a');
+	_putchar('r');
 
-	for (i=0; i<8; i++)
-		putchar(word[i]);
-
-	putchar('\n');
+	_putchar('\n');
 
 
 	return(0);
