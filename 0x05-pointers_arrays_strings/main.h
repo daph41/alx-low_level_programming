@@ -10,4 +10,5 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 int _atoi(char *s);
 void rev_string(char *s);
+void randomPasswordGeneration(int N)
 char *_strcpy(char *dest, char *src);
