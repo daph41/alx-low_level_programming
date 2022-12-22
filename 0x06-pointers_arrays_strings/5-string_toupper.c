@@ -1,5 +1,4 @@
 #include "main.h"
-#include<stdio.>
 
 char *string_toupper(char *p)
 {
