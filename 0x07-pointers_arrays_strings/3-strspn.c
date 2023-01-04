@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 			}
 			accept++;
 		}
-		S++;
+		s++;
 		accept = start;
 		if (flag == 0)
 			break;
