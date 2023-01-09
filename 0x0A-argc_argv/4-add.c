@@ -3,29 +3,24 @@
 #include <stdlib.h>
 #include <string.h>
 
-int checker(int argc, int i, unsigned int j, char *argv[])
-{
-	for (i = 1; i <= argc; i++)
-		for (j = 0; argv[i] != '\0' && j < strlen(argv[i]); j++)
-			if (isdigit(argv[i][j]) == 0)
-				return (1);
-	return (0);
-}
+int main(int argc, char **argv)
 
-int main(int argc, char *argv[])
 {
-	int result, i;
-	result = 0;
+	int num, result = 0, i;
+	while (argc-- > 1)
+	{	for (i = 0; argv[argc][i]; i++)
+			{
+				if (!(isdigit(argv[argc][i])))
+																						{	printf("Error\n");
+																							return (1);
+					}
+			}
 
-	if (checker(argc, 1, 0, argv) == 1)
-	{
-		printf("Error\n");
-		return (1);
+			num = atoi(argv[argc]);
+			result += num;
 	}
-
-	for (i = 1; i < argc; i++)
-		result += atoi(argv[i]);
 	printf("%d\n", result);
 	return (0);
+
 }
 
