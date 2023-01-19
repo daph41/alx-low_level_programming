@@ -2,32 +2,33 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-//addition function
+/*addition function */
 int op_add(int a, int b)
 {
 	return (a + b);
 }
 
-//subtraction function
+/*subtraction function*/
+
 int op_sub(int a, int b)
 {
 	return (a-b);
 }
 
-//multiplication function
+/*multiplication function*/
 int op_mul(int a, int b)
 {
 	return(a*b);
 }
 
 
-//division function
+/*division function*/
 int op_div(int a, int b)
 {
 	return (a/b);
 }
 
-//modulus function
+/*modulus function*/
 int op_mod(int a, int b)
 {
 	return (a%b);
